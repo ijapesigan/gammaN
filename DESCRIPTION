@@ -1,0 +1,30 @@
+Package: gammaN
+Title: Asymptotic Covariance Matrix Under Normality
+Version: 0.0.2
+Authors@R: 
+    person(given = "Ivan Jacob Agaloos",
+           family = "Pesigan",
+           role = c("aut", "cre", "cph"),
+           email = "r.jeksterslab@gmail.com",
+           comment = c(ORCID = "0000-0003-4818-8420"))
+Description: Helpers for the asymptotic covariance matrix of the sample
+    covariance matrix under the multivariate normal distribution,
+    and for the sample covariance matrix of the data.
+    Each function has an internal version without input checks
+    that other projects can copy.
+URL: https://github.com/ijapesigan/gammaN,
+        https://ijapesigan.github.io/gammaN/
+BugReports: https://github.com/ijapesigan/gammaN/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.0.0)
+Imports: stats
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.1.9000
+NeedsCompilation: no
+Packaged: 2026-11-15 04:13:17 UTC; root
+Author: Ivan Jacob Agaloos Pesigan [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0003-4818-8420>)
+Maintainer: Ivan Jacob Agaloos Pesigan <r.jeksterslab@gmail.com>

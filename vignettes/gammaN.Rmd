@@ -1,0 +1,62 @@
+---
+title: "gammaN: Asymptotic Covariance Matrix Under Normality"
+author: "Ivan Jacob Agaloos Pesigan"
+output: rmarkdown::html_vignette
+bibliography: "vignettes.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+nocite: |
+  @RCoreTeam-2026
+vignette: >
+  %\VignetteIndexEntry{gammaN: Asymptotic Covariance Matrix Under Normality}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Description
+
+Helpers in R [@RCoreTeam-2026]
+for the asymptotic covariance matrix of the sample covariance matrix
+under the multivariate normal distribution,
+and for the sample covariance matrix of the data.
+Each function has an internal version without input checks
+that other projects can copy.
+
+## Installation
+
+You can install the development version of `gammaN` from
+[GitHub](https://github.com/ijapesigan/gammaN) with:
+
+```r
+if (!require("pak")) install.packages("pak")
+pak::pkg_install("ijapesigan/gammaN")
+```
+
+## Example
+
+```{r}
+library(package = "gammaN")
+```
+
+The asymptotic covariance matrix of the half-vectorized sample covariance matrix of two variables under normality.
+
+```{r}
+x <- datasets::mtcars[, c("mpg", "wt")]
+GammaN(x = x)
+GammaN(x = x, consistent = FALSE)
+```
+
+## Documentation
+
+See
+[GitHub Pages](https://ijapesigan.github.io/gammaN)
+for package documentation.
+
+## References
