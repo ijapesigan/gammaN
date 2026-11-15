@@ -1,0 +1,38 @@
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# ------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "gammaN" in publications use:'
+type: software
+license: MIT
+title: 'gammaN: Asymptotic Covariance Matrix Under Normality'
+version: 0.0.2
+abstract: Helpers for the asymptotic covariance matrix of the sample covariance matrix
+  under the multivariate normal distribution, and for the sample covariance matrix
+  of the data. Each function has an internal version without input checks that other
+  projects can copy.
+authors:
+- family-names: Pesigan
+  given-names: Ivan Jacob Agaloos
+  email: r.jeksterslab@gmail.com
+  orcid: https://orcid.org/0000-0003-4818-8420
+preferred-citation:
+  type: manual
+  title: 'gammaN: Asymptotic Covariance Matrix Under Normality'
+  authors:
+  - family-names: Pesigan
+    given-names: Ivan Jacob Agaloos
+    email: r.jeksterslab@gmail.com
+    orcid: https://orcid.org/0000-0003-4818-8420
+  year: '2026'
+  notes: R package version 0.0.2
+repository-code: https://github.com/ijapesigan/gammaN
+url: https://ijapesigan.github.io/gammaN/
+contact:
+- family-names: Pesigan
+  given-names: Ivan Jacob Agaloos
+  email: r.jeksterslab@gmail.com
+  orcid: https://orcid.org/0000-0003-4818-8420
+
