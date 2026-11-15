@@ -1,0 +1,30 @@
+# gammaN
+
+Ivan Jacob Agaloos Pesigan
+
+## Description
+
+Helpers in R (R Core Team, 2026) for the asymptotic covariance matrix of
+the sample covariance matrix under the multivariate normal distribution,
+computed from the data. Each function has an internal version without
+input checks that other projects can copy.
+
+## Installation
+
+You can install the development version of `gammaN` from
+[GitHub](https://github.com/ijapesigan/gammaN) with:
+
+\
+`if`` ``(``!`[`require`](https://rdrr.io/r/base/library.html)`(`[`"pak"`](https://pak.r-lib.org/)`)``)`` `[`install.packages`](https://rdrr.io/r/utils/install.packages.html)`(``"pak"``)`\
+`pak``::`[`pkg_install`](https://pak.r-lib.org/reference/pkg_install.html)`(``"ijapesigan/gammaN"``)`
+
+## More Information
+
+See [GitHub Pages](https://ijapesigan.github.io/gammaN) for package
+documentation.
+
+## References
+
+R Core Team. (2026). *R: A language and environment for statistical
+computing*. R Foundation for Statistical Computing.
+<https://www.R-project.org/>
