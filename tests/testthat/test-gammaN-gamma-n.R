@@ -114,3 +114,25 @@ lapply(
   },
   text = "test-gammaN-gamma-n"
 )
+
+## ---- test-gammaN-gamma-n-error
+lapply(
+  X = 1,
+  FUN = function(i,
+                 text) {
+    testthat::skip_on_cran()
+    message(text)
+    testthat::test_that(
+      desc = paste(text, "stops on invalid input"),
+      code = {
+        testthat::expect_error(
+          object = GammaN(x = list(1, 2))
+        )
+        testthat::expect_error(
+          object = GammaN(x = matrix(data = 1:4, nrow = 2), consistent = NA)
+        )
+      }
+    )
+  },
+  text = "test-gammaN-gamma-n-error"
+)

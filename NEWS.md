@@ -1,3 +1,13 @@
+# gammaN 0.0.3
+
+## Other changes
+
+- The linearAlgebra copies refreshed from linearAlgebra 0.0.5 (`.DMat()` and `.PInvDmat()` faster, same results).
+
+## Bug fixes
+
+- `GammaN()` checks its input: a numeric vector, matrix, or data frame, and a single `TRUE` or `FALSE` for `consistent`.
+
 # gammaN 0.0.2
 
 ## Bug fix
