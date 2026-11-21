@@ -1,6 +1,6 @@
 Package: gammaN
 Title: Asymptotic Covariance Matrix Under Normality
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Ivan Jacob Agaloos",
            family = "Pesigan",

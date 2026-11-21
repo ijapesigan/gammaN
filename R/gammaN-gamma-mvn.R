@@ -44,6 +44,12 @@
 #' @export
 GammaN <- function(x,
                    consistent = TRUE) {
+  stopifnot(
+    is.numeric(x = x) || is.data.frame(x = x),
+    is.logical(x = consistent),
+    length(x = consistent) == 1,
+    !is.na(x = consistent)
+  )
   if (is.vector(x = x)) {
     n <- length(x = x)
   }
