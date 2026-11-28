@@ -1,7 +1,7 @@
 gammaN
 ================
 Ivan Jacob Agaloos Pesigan
-2026-11-26 21:05:10
+2026-11-28 03:28:35
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
